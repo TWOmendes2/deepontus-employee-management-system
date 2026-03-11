@@ -64,3 +64,45 @@ This project was created as an internal management solution for employee operati
 ├── index.html
 ├── login.html
 └── profile.html
+
+
+## Database
+
+The project includes SQL migration files for employee profile creation and expansion, including fields related to identification, contact information and CLT-related registration data.
+
+## Setup
+
+1. Clone the repository
+
+2. Configure your Supabase project
+
+3. Create a config.js file based on config.example.js
+
+4. Run the SQL migrations in your Supabase SQL editor
+
+5. Open index.html in your browser or deploy the project in a static hosting environment
+
+## Supabase Config Example
+window.DEEPONTUS_CONFIG = {
+  SUPABASE_URL: "YOUR_SUPABASE_URL",
+  SUPABASE_ANON_KEY: "YOUR_SUPABASE_ANON_KEY"
+};
+
+## Deployment
+
+This project can be deployed on static hosting platforms such as:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+
+## Notes
+
+This repository is presented as a portfolio case focused on interface architecture, workflow organization and integration with Supabase.
+
+Author
+
+Developed by Felipe Mendes.
