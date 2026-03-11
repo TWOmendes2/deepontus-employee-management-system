@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Batinga Cursos • Login</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/app.css"/>
+</head>
+<body>
+  <div style="min-height:100vh; display:grid; place-items:center; padding:18px">
+    <div class="card paper auth-card" style="width:min(440px, 94vw); padding:18px; background:#fff; border-color:rgba(17,17,19,.12)">
+      <div style="display:flex; gap:12px; align-items:center">
+        <div class="avatar" style="width:46px;height:46px;border-radius:16px; background:transparent; border-color:rgba(176,0,124,.35)">
+          <img src="./assets/img/favicon.png" alt="Batinga Cursos"/>
+        </div>
+        <div>
+          <h2 style="margin:0; font-size:1.15rem">Batinga Cursos</h2>
+          <p class="help" style="margin:6px 0 0; color:rgba(17,17,19,.55)">Acesse para registrar ponto e acompanhar seu perfil.</p>
+        </div>
+      </div>
+
+      <form id="login-form" style="margin-top:14px">
+        <div class="field">
+          <label for="employee_id">ID do colaborador</label>
+          <input id="employee_id" autocomplete="username" placeholder="Ex.: EMP005" required/>
+        </div>
+        <div class="field">
+          <label for="password">Senha</label>
+          <input id="password" type="password" autocomplete="current-password" placeholder="••••••••" required/>
+        </div>
+
+        <button class="btn primary" id="btn-login" style="width:100%; justify-content:center; margin-top:14px" type="submit">Entrar</button>
+        <p id="error" class="help" style="color:var(--danger); margin:10px 0 0"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
+  <script src="./assets/js/config.js"></script>
+  <script src="./assets/js/core.js"></script>
+  <script src="./assets/js/login.js"></script>
+</body>
+</html>
