@@ -65,6 +65,7 @@ This project was created as an internal management solution for employee operati
 ├── login.html
 └── profile.html
 
+```
 
 ## Database
 
