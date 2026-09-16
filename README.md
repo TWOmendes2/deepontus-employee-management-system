@@ -1,3 +1,7 @@
+> **LEGACY — preservado para histórico.** Desenvolvimento ativo e novos PRs:
+> [Projeto-pontos-eletronico](https://github.com/TWOmendes2/Projeto-pontos-eletronico).
+> Consulte [critérios e migração](docs/REPOSITORY-STATUS.md).
+
 # Deepontus
 
 Deepontus is a web-based employee management and internal operations system built to centralize time tracking, employee profiles, internal requests, calendar view and financial monitoring in a single interface.
@@ -30,7 +34,7 @@ This project was created as an internal management solution for employee operati
 ## Features
 
 ### Employee Area
-- secure login flow
+- legacy login flow (requires authorization review before production)
 - personal dashboard
 - employee profile page
 - financial page
