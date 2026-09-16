@@ -1,0 +1,4 @@
+window.DEEPONTUS_CONFIG = {
+  SUPABASE_URL: "https://example.supabase.co",
+  SUPABASE_ANON_KEY: "CONFIGURE_PUBLIC_KEY_LOCALLY"
+};
